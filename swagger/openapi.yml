@@ -1,9 +1,17 @@
 openapi: "3.0.0"
 info:
-  version: 1.0.0
-  title: Swagger Petstore
+  title: Review App Api
+  description: Review app is simple app. User can add product for review and then other user can review it. All user aninomous. No user identity.
+  termOfService: http://reviewapp.tritechfirm.com/review-app-terms
+  contact: 
+    name: Ziauddin Robin
+    email: info@tritechfirm.com
   license:
-    name: MIT
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+  externalDocs:
+    description: Find out more about 
 servers:
   - url: http://petstore.swagger.io/v1
 paths:
